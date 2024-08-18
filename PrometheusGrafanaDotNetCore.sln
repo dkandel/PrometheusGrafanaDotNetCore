@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrometheusGrafanaDotNetCore", "PrometheusGrafanaDotNetCore\PrometheusGrafanaDotNetCore.csproj", "{C0A4AC35-88D9-4A49-9278-1EC1C0C8C046}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrometheusGrafanaDotnetCore.Application", "PrometheusGrafanaDotnetCore.Application\PrometheusGrafanaDotnetCore.Application.csproj", "{92790C00-EA9B-4248-94F1-23C7D9BD5560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrometheusGrafanaDotNetCore.Domain", "PrometheusGrafanaDotNetCore.Domain\PrometheusGrafanaDotNetCore.Domain.csproj", "{2954652E-295D-45E5-95A1-122D4480D946}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{C0A4AC35-88D9-4A49-9278-1EC1C0C8C046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0A4AC35-88D9-4A49-9278-1EC1C0C8C046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0A4AC35-88D9-4A49-9278-1EC1C0C8C046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92790C00-EA9B-4248-94F1-23C7D9BD5560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92790C00-EA9B-4248-94F1-23C7D9BD5560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92790C00-EA9B-4248-94F1-23C7D9BD5560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92790C00-EA9B-4248-94F1-23C7D9BD5560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2954652E-295D-45E5-95A1-122D4480D946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2954652E-295D-45E5-95A1-122D4480D946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2954652E-295D-45E5-95A1-122D4480D946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2954652E-295D-45E5-95A1-122D4480D946}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
